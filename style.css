@@ -1,0 +1,63 @@
+body{
+    background-color: #fbf7d5;
+}
+#slider {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+}
+
+.heading{
+    font-size: 100px;
+
+    text-decoration: underline;
+}
+#sommer{
+    background-color: #f9ded7;
+}
+#winter{
+    background-color: #cce1f2;
+ }
+#spring{
+    background-color: #8ae6bf;
+}
+#autumn{
+    background-color: #f9ded7;
+}
+
+.images{
+    width: 100%;
+    height: 100%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+ul{
+    padding: 50px;
+    list-style-position: outside;
+}
+li { 
+    line-height: 7;  
+ }
+ 
+
+.sum_list{
+    list-style-image:  url(./assests/sun.png);
+}
+.win_list{
+    list-style-image:  url(./assests/snow.png);
+}
+.spr_list{
+    list-style-image:  url(./assests/flower.png);
+}
+.aut_list{
+    list-style-image:  url(./assests/leave.png);
+}
+
+.par{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    margin-left: 10px;
+    background-color: aliceblue;
+    border: blueviolet 2px solid;
+}
